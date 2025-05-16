@@ -1,5 +1,5 @@
 {
-  "name": "memory-dump",
+  "name": "KCGameOn",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -37,9 +37,7 @@
     "react-native-screens": "~4.10.0",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
-    "expo-camera": "~16.1.6",
-    "expo-video": "~2.1.9",
-    "expo-media-library": "~17.1.6"
+    "expo-camera": "~16.1.6"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
