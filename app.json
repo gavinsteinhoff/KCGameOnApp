@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "KCGameOn",
-    "slug": "KCGameOn",
+    "name": "memory-dump",
+    "slug": "memory-dump",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "KCGameOn",
+    "scheme": "memory-dump",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -30,7 +30,16 @@
         {
           "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
           "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
-          "recordAudioAndroid": false
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "preventAutomaticLimitedAccessAlert": true,
+          "isAccessMediaLocationEnabled": true
         }
       ],
       [
@@ -41,7 +50,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#000000"
         }
-      ]
+      ],
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true
